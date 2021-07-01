@@ -1,3 +1,16 @@
+# 01/07/21
+NR_130107.1
+Result for NR_130107.1
+No. of 2G PQS : 9
+No. of 3G PQS : 1
+No. of 4G PQS : 0
+
+NR_149020.1
+Result for NR_149020.1
+No. of 2G PQS : 37
+No. of 3G PQS : 6
+No. of 4G PQS : 2
+
 (NR_024281.1)
 NR_104319.1
 BASE_URL = https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi
