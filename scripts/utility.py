@@ -22,6 +22,7 @@ def getseq(NCBI_ID):
     response = requests.request("GET", reqUrl)
     return "".join(response.text.split("\n")[1:])
 
+
 def getGcount(driver,NCBI_ID):
     
     driver.get("https://bioinformatics.ramapo.edu/QGRS/analyze.php")
@@ -52,6 +53,7 @@ def getGcount(driver,NCBI_ID):
         print("No. of "+str(i+2)+"G PQS :",gees[i])
 
     return gees
+
 
 def getGcountMultiple(driver, IDs):
     
