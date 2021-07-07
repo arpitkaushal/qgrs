@@ -1,5 +1,3 @@
-# To add a new cell, type '# %%'
-# To add a new markdown cell, type '# %% [markdown]'
 # %%
 import openpyxl as ox
 import pandas as pd
@@ -38,5 +36,3 @@ for rowIn in range(2,ipSheet.max_row+1):
 
 # %%
 wb.save(op_file)
-
-

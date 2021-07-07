@@ -1,3 +1,26 @@
+## 7 July 2021
+One optimization we could do is store results for specific queries, and if they are asked again, we just retrieve them locally
+
+√ Getting data just using requests Done
+
+so if i want to work with requests, i need to get a few params that can later than give me the response I need for the `data view` of a sequence. 
+
+```py
+import requests as req
+uri = 'https://bioinformatics.ramapo.edu/QGRS/dataview.php'
+params = {'sq':'1','product':'0','id':'8fa7481fcf3a11126710fe9c6d0b9942','overlaps':'0'}
+r = req.get(uri,params=params)
+# r.url  = 'https://bioinformatics.ramapo.edu/QGRS/dataview.php?sq=1&product=0&id=8fa7481fcf3a11126710fe9c6d0b9942&overlaps=0'
+# r.text = <html of the page, from which we just have to parse using bs4/xpath or something>
+```
+
+So, we need four parameters to access the data view, obviously one of them would be assigned after we make a POST request to the server via form @ 'https://bioinformatics.ramapo.edu/QGRS/analyze.php' giving the sequence, and other options we desire for the analysis of sequence. 
+
+So, we need that response using request, get those params from response to our POST req of the form, and then make another GET req like mentioned in the above example. After that
+
+
+
+
 ## 2 July  2021
 
 ### Challenge
