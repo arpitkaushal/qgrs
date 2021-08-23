@@ -1,3 +1,43 @@
+## 23 aug 2021
+
+website - 
+
+ref - http://bio-bigdata.hrbmu.edu.cn/lnc2cancer/index.html
+
+first page
+intro para
+quick search bar below it 
+static samaan below it
+
+sidebar
+
+home - search bar, overview of all pages on the website
+browse - human body, and 
+web tool (qgrs)
+stats - static pages and images
+downloads - some excel files
+help - tell user how to use the website
+
+search tool - mapper details qgrs - segregated table of 2g 3g 4g as shown in data view of a sequence
+
+jaha bhi table dikhe vaha download ka option hona chahiye excel mein
+images ke neeche bhi download ka option
+
+lncrna name + aliases should be considered together when searching
+search parameter dropdown for lncrna name, and cancer name
+
+pubmedID hyperlink to the paper - pub.ncbi.sda.sad/213821389
+
+g4 hunter - https://bioinformatics.ibp.cz/ excel data will be provided and we'll upload
+
+
+during search
+lncrna name ---> subcellular localization && qgrs details && g4-Hunter details are same for one lncrna name - see if we can merge this all during our call to the frontend
+
+
+
+
+
 ## 7 July 2021
 One optimization we could do is store results for specific queries, and if they are asked again, we just retrieve them locally
 
